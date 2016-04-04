@@ -80,5 +80,5 @@ exit 0
 
 %files -f im-hangul-3.0.lang
 %defattr(644,root,root,755)
-%doc AUTHORS NEWS README imhangul.conf
+%doc AUTHORS NEWS README gtkrc imhangul.conf
 %attr(755,root,root) %{gtk3_immodules_dir}/im-hangul.so
